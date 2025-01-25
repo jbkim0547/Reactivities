@@ -21,7 +21,7 @@ jobs:
       - name: Set up NodeJS
         user: actions/setup-node@v3
         with:
-          node-verstion: '20'
+          node-version: '20'
 
       - name: Install deps and build react app
        run: |
